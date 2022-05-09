@@ -1,7 +1,7 @@
 <?php
 $metodo = $_SERVER['REQUEST_METHOD'];
-$index="http://localhost:8081/backrest/index.php";
-$servername = "172.17.0.1:3307";
+$index="http://localhost:8080/backrest/index.php";
+$servername = "172.17.0.1:3306";
 $user = "root";
 $pass = "ricca";
 $db="mydb";
