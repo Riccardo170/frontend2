@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
- 
-        <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+        <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/2.2.3/js/dataTables.buttons.min.js"></script>
+        <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/select/1.4.0/js/dataTables.select.min.js"></script>
+        <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/datetime/1.1.2/js/dataTables.dateTime.min.js"></script>
+        <script src="../Editor-2/js/dataTables.editor.min.js"></script>
+        <script src="data.js"></script>
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/select/1.4.0/css/select.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/datetime/1.1.2/css/dataTables.dateTime.min.css">
+        <link rel="stylesheet" href="../Editor-2/css/editor.dataTables.min.css">
     </head>
     <body>
         <table id="example" class="display" style="width:100%">
             <thead>
                 <tr>
+                    <th>Id</th>
                     <th>First name</th>
                     <th>Last name</th>
-                    <th>Position</th>
-                    <th>Office</th>
-                    <th>Start date</th>
-                    <th>Salary</th>
+                    <th>Gender</th>
+                    <th>Birth_Date</th>
+                    <th>Hire_Date</th>
+                    
                 </tr>
             </thead>
             <tfoot>
                 <tr>
+                    <th>Id</th>
                     <th>First name</th>
                     <th>Last name</th>
-                    <th>Position</th>
-                    <th>Office</th>
-                    <th>Start date</th>
-                    <th>Salary</th>
+                    <th>Gender</th>
+                    <th>Birth_Date</th>
+                    <th>Hire_Date</th>
                 </tr>
             </tfoot>
         </table>
-  <button type="button" class="btn btn-outline-info btn-prec" id="first">FIRST</button> 
-  <button type="button" class="btn btn-outline-info btn-succ"  id="prev">PREV</button>
-  <button type="button" class="btn btn-outline-info btn-prec"  id="next">NEXT</button> 
-  <button type="button" class="btn btn-outline-info btn-succ"  id="last">LAST</button>
 
-  <script src="data.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-  <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 </body>
 </html>
